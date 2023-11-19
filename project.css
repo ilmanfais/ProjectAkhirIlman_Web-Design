@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+    font-size: 50px;
+    color: white;
+    background-color: #00af8f;
+    width: 100%;
+    height: 20%;
+    padding: 1em;
+    margin: 0;
+    font: bold;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00af8f;
+    list-style: none;
+    padding: .5em;
+    margin: 0;
+
+}
+li{
+    margin: 0 1em;
+    color: white;
+}
+li.img {
+    margin-right: auto;
+}
+img{
+    height: 100px;
+}
+
+section img{
+    float: left;
+    padding: 1em;
+    height: 200px;
+}
+
+figure img{
+    height: 200px;
+    
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  aside {
+    float: right;
+    padding-left: 20px;
+    width: 40%;
+  }
+
+  
+  h2 {
+    color: #00a2c6;
+  }
+  
+  h3 {
+    color: #00a2c6;
+  }
+  
+  #content {
+    float: left;
+    width: 60%;
+  }
+  
+  .jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+  }
+  
+  .profile header {
+    text-align: center;
+  }
+
+  .image{
+    float: left;
+    padding-right: 1em;
+    height: 200px;
+  }
+  
+  .card {
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  header p{
+    text-align: center;
+  }
+
+  .informasi {
+    text-align: center;
+  }
+
+  .table {
+    padding: 2em;
+    padding-left: 10em;
+  }
+
+  footer{
+    display: flex;
+    height: 70%;
+}
+
+#saya{
+    flex: 1 1 50%;
+    order: 2;
+    background-color: yellow;
+    padding: 1em;
+    
+}
+
+footer h2{
+    font-size: 40px;
+}
+
+#sosmed{
+    flex: 1 1 25%;
+    order: 3;
+    background-color: yellowgreen;
+    font-size: 40px;
+    font: bold;
+    padding: 1em;
+}
+
+.alamat{
+    flex: 1 1 25%;
+    order: 1;
+    background-color: greenyellow;
+    font-size: 40px;
+    font: bold;
+    padding: 1em;
+}
